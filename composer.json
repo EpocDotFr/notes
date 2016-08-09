@@ -1,0 +1,9 @@
+{
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "^3.1",
+        "monolog/monolog": "^1.17",
+        "fguillot/json-rpc": "^1.0",
+        "slim/php-view": "^2.0"
+    }
+}

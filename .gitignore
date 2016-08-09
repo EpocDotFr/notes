@@ -1,0 +1,8 @@
+/.idea
+/vendor/
+/templates/cache/*
+/logs/*
+composer.phar
+run.bat
+composer.lock
+router.php

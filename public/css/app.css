@@ -1,0 +1,156 @@
+body {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+hr {
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.loading {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
+
+.color-square {
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+.color-square.selected {
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+  border-color: #66afe9 !important;
+}
+
+.color-yellow {
+  background-color: #f5f7c4;
+  border-color: #dfe32d;
+}
+
+.color-blue {
+  background-color: #dbebff;
+  border-color: #a8cfff;
+}
+
+.color-green {
+  background-color: #bdf4cb;
+  border-color: #4ae371;
+}
+
+.color-purple {
+  background-color: #dfb0ff;
+  border-color: #cd85fe;
+}
+
+.color-red {
+  background-color: #ffbbbb;
+  border-color: #ff9797;
+}
+
+.color-orange {
+  background-color: #ffd7b3;
+  border-color: #ffac62;
+}
+
+.color-grey {
+  background-color: #eeeeee;
+  border-color: #cccccc;
+}
+
+.color-brown {
+  background-color: #d7ccc8;
+  border-color: #4e342e;
+}
+
+.color-deep_orange {
+  background-color: #ffab91;
+  border-color: #e64a19;
+}
+
+.color-dark_grey {
+  background-color: #cfd8dc;
+  border-color: #455a64;
+}
+
+.color-pink {
+  background-color: #f48fb1;
+  border-color: #d81b60;
+}
+
+.color-teal {
+  background-color: #80cbc4;
+  border-color: #00695c;
+}
+
+.color-cyan {
+  background-color: #b2ebf2;
+  border-color: #00bcd4;
+}
+
+.color-lime {
+  background-color: #e6ee9c;
+  border-color: #afb42b;
+}
+
+.color-light_green {
+  background-color: #dcedc8;
+  border-color: #689f38;
+}
+
+.color-amber {
+  background-color: #ffe082;
+  border-color: #ffa000;
+}
+
+.row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.container-fluid {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.form-horizontal .form-group {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.panel-note {
+  margin-bottom: 5px;
+}
+
+.panel-note > .panel-heading,
+.panel-note > .panel-body,
+.panel-note > .panel-footer {
+  padding: 5px 5px;
+}
+
+.panel-note > .panel-heading {
+  font-weight: bold;
+  background-color: transparent;
+  border-bottom: none;
+}
+
+.panel-note > .panel-footer > span {
+  white-space: nowrap;
+}
